@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 800px;
+    margin: 0px auto;
+   
+}
+
+.layout2, .layout_img2{
+    font-size: 15px;
+   display: flex;
+    text-align: center;
+}
+.layout2, .layout_img2,.heading1{
+   padding: 2px;
+
+}
+.layout2, .layout_img2 > p{
+    width:820px;
+    text-align: left;
+    
+    
+}
+.imgs1{
+     width: 240px;
+     height: 150px;
+     background-color: rgb(163, 192, 235);
+     border: 1px solid;
+    
+
+}
+.img, .imgs, .imgs1{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+   
+}
+.imgs{
+    width: 16%;
+    height: 100px;
+    background-color: rgb(163, 192, 235);
+    border: 1px solid;
+    display: flex;  
+}
+.imgs2{
+     width: 700px;
+     height: 150px;
+     background-color: rgb(163, 192, 235);
+     border: 1px solid;
+}
+.layout1, .layout2, .layout3{
+     padding: 5px;
+    border-bottom: 1px solid ;
+    
+}
+.title{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid ;
+}
+.layout3, .layout_img3 > p{
+    width: 820px;
+    text-align: left;
+}
+.layout3, .layout_img3{
+    font-size: 15px;
+   display: flex;
+    text-align: center;
+}
+.img3, .imgs3{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.imgs3{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(163, 192, 235);
+    border: 1px solid;
+    display: flex;  
+    
+}
+.layout4 p{
+    padding: 15px;
+}
+@media only screen and (max-width:768px) {
+    .layout1, .layout2,.layout3,.layout4{
+        flex-direction: column;
+    }
+    .imgs,.imgs1,.imgs2,.imgs3{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width:1024px) {
+    .layout1, .layout2,.layout3,.layout4{
+        flex-direction: column;
+    }
+    .imgs,.imgs1,.imgs2,.imgs3{
+        width: 100%;
+    }
+   
+    
+}
+@media only screen and (max-width:1480px) {
+    .layout1, .layout2,.layout3,.layout4{
+        flex-direction: column;
+    }
+    .imgs,.imgs1,.imgs2,.imgs3{
+        width: 100%;
+    }
+   
+    
+}
+@media only screen and (max-width:320px) {
+    .layout1, .layout2,.layout3,.layout4{
+        flex-direction: column;
+    }
+    .imgs,.imgs1,.imgs2,.imgs3{
+        width: 100%;
+    }
+   
+    
+}
+@media only screen and (max-width:240px) {
+    .layout1, .layout2,.layout3,.layout4{
+        flex-direction: column;
+    }
+    .imgs,.imgs1,.imgs2,.imgs3{
+        width: 100%;
+    }
+   
+    
+}
+
+
+
+
+

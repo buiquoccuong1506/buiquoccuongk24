@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+
+
+.head, .button{
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    justify-content:space-between;
+    color: cornflowerblue;
+    
+}
+.submenu, .search {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head p {
+    width: 150px;
+    height: 50px;
+    background-color:white;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.button input {
+    width: 140px;
+    height: 50px;
+    margin: 2px;
+    
+}
+.submenu ul li{
+    
+    height: 50px;
+    background-color: rgb(166, 166, 219);
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+
+}
+.submenu ul{
+  margin-top: 20px;
+}
+.menu li{
+    border: 1px solid ;
+
+}
+
+
+hr {
+    margin: 5px;
+}
+
+
+
+
